@@ -1,6 +1,7 @@
 ## WordPress Theme Boilerplate
 
 This is a basic wordpress theme boilerplate for WordPress theme development.
+This boilerplate in under development. You are welcome to assist to develop the theme and make it a great boilerplate for theme developers.
 
 #### File Architecture
 <pre>
