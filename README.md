@@ -3,7 +3,7 @@
 This is a basic wordpress theme boilerplate for WordPress theme development.
 
 #### File Architecture
-
+<pre>
 |Inc
 |    |theme-config.php
 |    |enqueue-assets.php
@@ -47,3 +47,4 @@ This is a basic wordpress theme boilerplate for WordPress theme development.
 |sidebar.php
 |page.php
 |404.php
+</pre>
