@@ -21,7 +21,7 @@ This boilerplate in under development. You are welcome to assist to develop the 
 |
 |assets
 |  |__
-|  |  src   (Development Assets)
+|  |  |src   (Development Assets)
 |  |    |__
 |  |       |scss
 |  |       |__
@@ -43,13 +43,13 @@ This boilerplate in under development. You are welcome to assist to develop the 
 |  |       |   |__
 |  |              |images
 |  |__
-|  |  dist   (Production Assets)
+|  |  |dist   (Production Assets)
 |  |     
 |Template Parts
-|    |__
-|       |Header
-|       |Footer
-|       |Posts
+|     |__
+|        |Header
+|        |Footer
+|        |Posts
 |   
 |index.php  
 |functions.php

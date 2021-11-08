@@ -11,7 +11,7 @@
 <?php 
 
 if(!defined('ASSETS_DIR')){
-    define('ASSETS_DIR', get_template_directory_uri() . '/src/');
+    define('ASSETS_DIR', get_template_directory_uri() . '/assets/dist/');
 }
 
 if (!defined('INC_DIR')) {

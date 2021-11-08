@@ -1,0 +1,1 @@
+{"version":3,"file":"css/admin.css","mappings":";;;AAAA,eAAe;;AAEf;IACI,gBAAgB;AACpB,C","sources":["webpack://wordpress-theme-boilerplate/./src/scss/admin.scss"],"sourcesContent":["/** Admin Css */\r\n\r\nh1{\r\n    font-size: 1.5em;\r\n}"],"names":[],"sourceRoot":""}

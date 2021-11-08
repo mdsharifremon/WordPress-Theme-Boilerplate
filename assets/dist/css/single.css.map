@@ -1,0 +1,1 @@
+{"version":3,"file":"css/single.css","mappings":";;;AAAA,iBAAiB;;AAEjB;IACI,cAAc;AAClB,C","sources":["webpack://wordpress-theme-boilerplate/./src/scss/single.scss"],"sourcesContent":["/** Single Post */\r\n\r\np{\r\n    font-size:16px;\r\n}"],"names":[],"sourceRoot":""}
