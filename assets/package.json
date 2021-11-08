@@ -1,0 +1,58 @@
+{
+  "name": "wordpress-theme-boilerplate",
+  "version": "1.0.0",
+  "description": "A basic wordpress theme boilerplate",
+  "main": "index.js",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "boilerplate"
+  ],
+  "author": "Sharif Uddin",
+  "license": "MIT",
+  "private": true,
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+  "prod": "cross-env NODE_ENV=production webpack --mode production --progress",
+  "dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
+  "clean": "rm -rf build/*"
+  },
+  "dependencies": {
+    "dart-sass": "^1.25.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.1",
+    "cssnano": "^5.0.10",
+    "eslint": "^8.2.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.4.4",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss-loader": "^6.2.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.62.1",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdsharifremon/WordPress-Theme-Boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdsharifremon/WordPress-Theme-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/mdsharifremon/WordPress-Theme-Boilerplate#readme"
+}

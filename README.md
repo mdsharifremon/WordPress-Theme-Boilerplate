@@ -6,35 +6,50 @@ This boilerplate in under development. You are welcome to assist to develop the 
 #### File Architecture
 <pre>
 |Inc
-|    |theme-config.php
-|    |enqueue-assets.php
-|    |theme-support.php
-|    |nav-menu.php
-|    |widgets.php
-|    |customize.php
-|    |helpers.php
+|  |__
+|     |theme-config.php
+|     |enqueue-assets.php
+|     |theme-support.php
+|     |nav-menu.php
+|     |widgets.php
+|     |customize.php
+|     |helpers.php
 |
 |Page Template
-|    | Page Templates
+|     |__
+|        |Page Templates
 |
-|Src
-|    |scss
-|    |   |components
-|    |       |components styles
-|    |   |admin.scss
-|    |   |theme.scss
-|    |js
-|    |   |components
-|    |        |components scripts
-|    |   |theme.js
-|    |   |admin.js
-|    |images
-|         |images
-|   
+|assets
+|  |__
+|  |  src   (Development Assets)
+|  |    |__
+|  |       |scss
+|  |       |__
+|  |       |   |components
+|  |       |   |   |__
+|  |       |   |      |components styles
+|  |       |   |admin.scss
+|  |       |   |theme.scss
+|  |       |
+|  |       |js
+|  |       |   |__
+|  |       |   |   |components
+|  |       |   |         |__
+|  |       |   |            |components scripts
+|  |       |   |theme.js
+|  |       |   |admin.js
+|  |       |
+|  |       |images
+|  |       |   |__
+|  |              |images
+|  |__
+|  |  dist   (Production Assets)
+|  |     
 |Template Parts
-|    |Header
-|    |Footer
-|    |Posts
+|    |__
+|       |Header
+|       |Footer
+|       |Posts
 |   
 |index.php  
 |functions.php
