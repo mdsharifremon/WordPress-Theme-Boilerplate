@@ -25,7 +25,7 @@ open your terminal and type
 ```
 **Install your dependencies**
 ```cmd
-  npm init install
+  npm install
 ```
 
 this command will install all required dependencies and files into your project.
