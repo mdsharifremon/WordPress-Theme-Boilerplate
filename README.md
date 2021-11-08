@@ -4,24 +4,43 @@ This is a basic wordpress theme boilerplate for WordPress theme development.
 This boilerplate in under development. You are welcome to assist to develop the theme and make it a great boilerplate for theme developers.
 
 ## Features
-    <li>Development environment setup with NPM</li>
-    <li>Webpack Configuration</li>
-    <li>Babel, Sass, Postcss</li>
-    <li>Most common folders and files</li>
-    <li>Simple loop, Enqueue styles and scripts</li>
-    <li>Basic theme setup</li>
+- Development environment setup with NPM
+- Webpack Configuration
+- Babel, Sass, Postcss
+- Most common folders and files
+- Simple loop, Enqueue styles and scripts
+- Basic theme setup
 
 ## Installation instructions
 copy the repository directory and open with vscode.
 open your terminal and type
 
+**Enter on assets directory**
 ```cmd
     cd assets
-    npm init -y
-    npm install
+```
+**Initialize your project**
+```cmd
+  npm init -y
+```
+**Install your dependencies**
+```cmd
+  npm init install
 ```
 
 this command will install all required dependencies and files into your project.
+
+**For development purpose run**
+
+```cmd
+    npm run dev
+```
+
+**For production purpose run**
+
+```cmd
+    npm run prod
+```
 
 
 ## Folder & File Architecture
